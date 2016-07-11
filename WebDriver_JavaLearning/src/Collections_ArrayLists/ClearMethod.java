@@ -2,7 +2,7 @@ package Collections_ArrayLists;
 
 import java.util.ArrayList;
 
-public class Removemethod {
+public class ClearMethod {
 
 	public static void main(String[] args) {
 ArrayList<String>al = new ArrayList<String>();
@@ -17,18 +17,16 @@ ArrayList<String>al = new ArrayList<String>();
 		    }
 		
 		
-				System.out.println("before remove :"+al.size());
+				System.out.println("before clear :"+al.size());
 				
 				
-				al.remove(2);// remove element at index2
+				al.clear();//clears all elements in list
 				for(String s:al){
 			    	System.out.println(s);
 			    }
 				
-				System.out.println("after remove :"+al.size());
+				System.out.println("after clear :"+al.size());
 		
-		
-	
 
 	}
 

@@ -2,7 +2,7 @@ package Collections_ArrayLists;
 
 import java.util.ArrayList;
 
-public class Removemethod {
+public class SetMethod {
 
 	public static void main(String[] args) {
 ArrayList<String>al = new ArrayList<String>();
@@ -17,19 +17,16 @@ ArrayList<String>al = new ArrayList<String>();
 		    }
 		
 		
-				System.out.println("before remove :"+al.size());
+				System.out.println("before set/update list :"+al.size());
 				
 				
-				al.remove(2);// remove element at index2
+				al.set(3, "Ant");//update existing element
 				for(String s:al){
 			    	System.out.println(s);
 			    }
 				
-				System.out.println("after remove :"+al.size());
+				System.out.println("after set/update list  :"+al.size());
 		
-		
-	
-
 	}
 
 }
